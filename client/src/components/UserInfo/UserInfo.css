@@ -1,0 +1,17 @@
+.wrapper_content{
+  margin: 10px 5px;
+}
+
+.wrapper_content h5{
+  color: #e74c3c;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.collection {
+  overflow-y: scroll;
+  max-height: 320px;
+}::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}

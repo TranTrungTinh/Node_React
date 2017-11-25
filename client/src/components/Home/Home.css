@@ -1,0 +1,19 @@
+.wrapper_container {
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.total p{
+  font-size: 26px;
+  color: red;
+}
+.total p span{
+  color: green;
+  font-size: 32px;
+}
+.collection {
+  overflow-y: scroll;
+  max-height: 320px;
+}::-webkit-scrollbar{
+  width: 0px;
+  background: transparent;
+}

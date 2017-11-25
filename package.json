@@ -1,0 +1,18 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "firebase": "^4.6.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  }
+}
