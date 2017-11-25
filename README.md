@@ -3,7 +3,7 @@
 
 # NODE_REACT
 
-Example project using React with Nodejs server include React-Router-v4 Redux
+Example project using React with server Node include React-Router-v4 + Redux + Firebase
 
 ## Installation
 ```
